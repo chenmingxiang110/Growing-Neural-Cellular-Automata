@@ -1,6 +1,6 @@
 # Growing-Neural-Cellular-Automata
 
-A reproduction of Growing Neural Cellular Automata:
+A reproduction of Growing Neural Cellular Automata using Pytorch:
 
 ```
 Mordvintsev, et al., "Growing Neural Cellular Automata", Distill, 2020.
