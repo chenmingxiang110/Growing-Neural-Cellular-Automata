@@ -21,7 +21,6 @@ class displayer:
 
     def update(self, _map):
         self.screen.fill((255,255,255))
-
         for i in range(_map.shape[0]):
             for j in range(_map.shape[1]):
                 x = j * self.pix_size + int(self.pix_size/2)
