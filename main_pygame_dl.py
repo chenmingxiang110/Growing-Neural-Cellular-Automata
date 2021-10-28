@@ -1,3 +1,4 @@
+import os
 import pygame
 import torch
 import numpy as np
@@ -6,6 +7,8 @@ from lib.displayer import displayer
 from lib.utils import mat_distance
 from lib.CAModel import CAModel
 from lib.utils_vis import to_rgb, make_seed
+
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 eraser_radius = 3
 pix_size = 8
