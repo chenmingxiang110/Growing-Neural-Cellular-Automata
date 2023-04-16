@@ -1,3 +1,4 @@
+import os
 import pygame
 import torch
 import numpy as np
@@ -8,6 +9,7 @@ from lib.CAModel import CAModel
 from lib.utils_vis import to_rgb, make_seed
 
 eraser_radius = 6
+
 pix_size = 8
 display_map_shape = (120, 120)
 _map_shape = (80, 80)
